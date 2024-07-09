@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:dbtest/timertest.dart';
 import 'package:dbtest/twopage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Method(database: database),
+      home: Timertest(),
     );
   }
 }
